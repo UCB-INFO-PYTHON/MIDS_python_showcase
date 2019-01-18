@@ -19,6 +19,9 @@ Students are allowed to see the examples of these projects to give them an idea 
 [Battleship game](https://ucb-info-python.github.io/BattleshipGame/.)
 *by Steve Dille*
 
+[Work Witch](https://ucb-info-python.github.io/WorkWitch_JDunn/.)
+*by Jay Dunn*
+
 ######Project 2 - analytical summary
 
 [An Exploratory Analysis of the Relationship
