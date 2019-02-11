@@ -24,6 +24,17 @@ Students are allowed to see the examples of these projects to give them an idea 
 *by Jay Dunn*
 [code](https://github.com/UCB-INFO-PYTHON/WorkWitch_JDunn)
 
+3. [Pastry_Chef_Game](https://ucb-info-python.github.io/Pastry_Chef_Game/.)
+*by Lorrel Plimier*
+[code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
+
+4. [Fight_Cancer_Game](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game/.)
+*by Chun-Jen Curtis Lin*
+[code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
+
+
+
+
 ----
 #### Project 2 - analytical summary
 
