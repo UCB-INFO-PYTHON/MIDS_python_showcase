@@ -1,18 +1,12 @@
 # python_project_showcase
 
-*The Berkeley Masters of Data Science project showcase*
+*The Berkeley Masters of Data Science (MIDS) project showcase*
 
 We get some pretty incredible projects from our python for data science course. We have chosen the best of them to put in this public facing showcase. There are two types of projects in the showcase
-
- - Project 1 - An object oriented code base
-
- - Project 2 - Data analytics
-
 ---
-Students are allowed to see the examples of these projects to give them an idea of expectations and what is possible. as a result of this we see progressively better projects every semester. Because of this temporal effect projects are sorted by semester.
+These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester.
 
 ## Fall 2018
-
 
 #### Project 1 - object oriented code base
 
@@ -32,8 +26,13 @@ Students are allowed to see the examples of these projects to give them an idea 
 *by Chun-Jen Curtis Lin*
 [code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
 
+5. Twitter sentiment
+* by Robert Calzaretta*
+reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
 
-
+6. Twitter sentiment
+* by Alexander Mueller*
+reason for selection: "Actual gov’t data source; extensive analysis & graphs; reflective statement." - Professor Benoit
 
 ----
 #### Project 2 - analytical summary
