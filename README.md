@@ -27,11 +27,13 @@ These examples are selected as the best of the best projects. They serve to show
 [code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
 
 5. Twitter sentiment
-* by Robert Calzaretta*
+*by Robert Calzaretta*
+
 reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
 
-6. Twitter sentiment
-* by Alexander Mueller*
+6. Air Quality 
+*by Alexander Mueller*
+
 reason for selection: "Actual gov’t data source; extensive analysis & graphs; reflective statement." - Professor Benoit
 
 ----
