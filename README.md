@@ -29,12 +29,12 @@ These examples are selected as the best of the best projects. They serve to show
 5. Twitter sentiment
 *by Robert Calzaretta*
 
-reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
+ - reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
 
 6. Air Quality 
 *by Alexander Mueller*
 
-reason for selection: "Actual gov’t data source; extensive analysis & graphs; reflective statement." - Professor Benoit
+ - reason for selection: "Actual gov’t data source; extensive analysis & graphs; reflective statement." - Professor Benoit
 
 ----
 #### Project 2 - analytical summary
