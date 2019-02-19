@@ -1,9 +1,11 @@
-# python_project_showcase
+#python_project_showcase
 
-*The Berkeley Masters of Data Science (MIDS) project showcase*
+*The UC Berkeley Masters of Data Science (MIDS) project showcase*
 
-We get some pretty incredible projects from our python for data science course. We have chosen the best of them to put in this public facing showcase. There are two types of projects in the showcase
+We get some pretty incredible projects from our python for data science course (W200). We have chosen the best of them to put in this public facing showcase. There are two types of projects in the showcase
+
 ---
+
 These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester.
 
 ## Fall 2018
