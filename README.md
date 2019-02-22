@@ -14,22 +14,45 @@ These examples are selected as the best of the best projects. They serve to show
 *by Steve Dille*
 [code](https://github.com/UCB-INFO-PYTHON/BattleshipGame)
 
+- Reason for selection: "Great Battleship implementation, wonderful error checking and UI.  Nice computer "AI" (shot optimizer algorithim)" Prof. Llop
+
 2. [Work Witch](https://ucb-info-python.github.io/WorkWitch_JDunn/.)
 *by Jay Dunn*
 [code](https://github.com/UCB-INFO-PYTHON/WorkWitch_JDunn)
+
+- Reason for selection: "Clean efficient code with a solid implentation of pygame and other advanced techniques" Prof. Kleemann
 
 3. [Pastry_Chef_Game](https://ucb-info-python.github.io/Pastry_Chef_Game/.)
 *by Lorrel Plimier*
 [code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
 
+- Reason for selection: "..." - Prof. Llop
+
 4. [Fight_Cancer_Game](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game/.)
 *by Chun-Jen Curtis Lin*
 [code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
+
+- Reason for selection: "Effective organization of probability-driven interacting objects" - Prof. Huntsinger
 
 5. Twitter sentiment
 *by Robert Calzaretta*
 
  - reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
+
+### Summer 2018
+
+### Spring 2018
+
+### Fall 2017
+
+### Summer 2017
+
+### Spring 2017
+
+### Fall 2016
+
+### Summer 2016
+
 
 ----
 #### Project 2 - analytical summary
@@ -42,39 +65,18 @@ https://ucb-info-python.github.io/Project2PetitSohnREPO/.)
 - [code](https://github.com/UCB-INFO-PYTHON/Project2PetitSohnREPO)
 
 ### Summer 2018
-#### Project 1 - object oriented code base
-
-##### Project 2 - analytical summary
 
 ### Spring 2018
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 ### Fall 2017
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 ### Summer 2017
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 ### Spring 2017
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 ### Fall 2016
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 ### Summer 2016
-#### Project 1 - object oriented code base
-
-#### Project 2 - analytical summary
 
 
 
