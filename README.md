@@ -43,7 +43,7 @@ These examples are selected as the best of the best projects. They serve to show
 
 ### Spring 2018
 
-
+Minesweeper_Jennifer_Be
 
 ### Fall 2017
 
@@ -54,6 +54,12 @@ Spacebunnies
 - Reason for selection: "Very creative use the command line to make an engaging game. Intuitive UX" - Prof. Kleemann
 
 ### Summer 2017
+
+
+Yelper
+*by Robert Deng*
+[code](/project_1/past_examples/Yelper_RobertDeng)
+- Reason for selection: "Use of the Yelp APIto make a very flexable tool, our fist example of the integration of an API into porject 1 " - Prof. Kleemann
 
 ### Spring 2017
 
@@ -69,6 +75,20 @@ Whirlypigs
 ### Summer 2016
 
 
+TownTasks_MJT_P1
+[code](/TownTasks_MJT_P1
+- Reason for selection: " " - Prof. Kleemann
+
+BikeTrail
+by Matt Stevenson
+
+[code](/project_1/past_examples/BikeTrail_MStevenson)
+- Reason for selection: " " - Prof. Kleemann
+
+Star_Wars
+* by Manish Singh*
+[code](
+- Reason for selection: " " - Prof. Llop
 
 
 ----
