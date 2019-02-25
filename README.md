@@ -37,13 +37,21 @@ These examples are selected as the best of the best projects. They serve to show
 5. Twitter sentiment
 *by Robert Calzaretta*
 
- - reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
+ - Reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
 
 ### Summer 2018
 
 ### Spring 2018
 
+
+
 ### Fall 2017
+
+Spacebunnies 
+*by Matt Thielen* 
+[code](https://github.com/UCB-INFO-PYTHON/MIDS_python_showcase/tree/master/project_1/past_examples/SpaceBunnies_Mattthiel)
+
+- Reason for selection: "Very creative use the command line to make an engaging game. Intuitive UX" - Prof. Kleemann
 
 ### Summer 2017
 
@@ -51,7 +59,16 @@ These examples are selected as the best of the best projects. They serve to show
 
 ### Fall 2016
 
+Whirlypigs
+*by Charlotte Swavola*
+[code](https://github.com/UCB-INFO-PYTHON/MIDS_python_showcase/tree/master/project_1/past_examples/Whirlypigs_CSSwavola)
+
+- Reason for selection: "Very creative program that is clearly written and uses OOP skillfully. " - Prof. Kleemann
+
+
 ### Summer 2016
+
+
 
 
 ----
