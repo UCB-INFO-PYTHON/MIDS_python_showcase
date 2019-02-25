@@ -1,0 +1,167 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\margl1440\margr1440\vieww13580\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\b\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Reflections
+\f1\i0\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 This was a huge undertaking to work on such an ambitious project for myself, taking in real user input and providing a real world Yelp experience. With experience connecting to APIs and building data tables in R, I wanted to push my comfort and confidence with dealing with APIs. Previously, I would be intimidated by the technicality in documentation and URL string parsing, but I\'92ve overcome that by realizing it\'92s simply concatenating strings with a function. Automating and scaling certain data features used to be very difficult, but I\'92ve developed a good comfort level with strings, lists, and dictionaries. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 As I reflect, I\'92ve learned that it takes a lot of work to produce a working project, similar to an app, and it requires different skill sets and hats. I do feel this might have been too ambitious to take on as a one man team to execute it to my ideal standard, polishing every little piece. I\'92ve learned a lot about organizing and managing my workflow:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 1) First building the barebones engine, with class skeletons (attribute setup). 
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 2) Next, figuring out how the interact with each other and building good functionality was important. 
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 3) Think through the sequence of game events and how that impacts the class methods
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 4) Testing for error checking and breaking the game
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 5) Add UI ornation (fluid game messages and flavor) and gamification
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\b\fs29\fsmilli14667 \cf2 Challenges
+\f1\i0\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Thinking through data scalability
+\f1\fs24 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Some of my class attributes were 
+\i lists
+\i0 , and I needed to figure out how to read in the specific piece of data and append only precisely.
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls1\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 i.e. Yelp Categories often came in the form of a nested list, with multiple items in the innermost list. I had to figure out that Yelp automatically sorts it with the proper capitalizations first, so I just need to take the [0][0] indexed list to make it work. \uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Solutions: I created a bunch of samples to make sure the pattern was consistent and scaled for many API requests. This just takes time and experience in pattern recognition and making certain smart assumptions about the ETL	\uc0\u8232 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf2 \ul \ulc2 Error Checking
+\f1\fs24 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Scalability in error checking to handle real world inputs so that Yelp API doesn\'92t break takes time. Having different friends try the program and getting user feedback provides me with a list of scenarios to answer. 
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls2\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Friends were able to tell me that my Yelp API broke when you query lunch, India\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Designing a program is actually more social than working in isolation, so I feel like talking to people about my project helped a ton. This is one weak point about the online program as social interaction is very limited\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Designing Structure
+\f1\fs24 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Thinking through the sequence of the decision making process when it comes to deciding where to go eat / itinerary through the day, and implementing things in code:
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls3\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Thinking through potential location is this far, translates to 2 miles, translates to 5$ in uber\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Once you go there, pass the food categories into your stomach, and append experience attributes to your class\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\b\fs29\fsmilli14667 \cf2 Creativity
+\f1\i0\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Garbage in, Garbage out
+\f1\fs24 \ulnone \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls4\ilvl0
+\f0\i\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Lack of Yelp Restaurant Cost Data
+\i0\b :
+\b0  I simply wished I had better real data to work with. I wish I had restaurant cost data, the real good stuff to give a better real world experience instead of just estimating cost data per activity and experience. \uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls5\ilvl0
+\f0\i\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Longitude & Latitude Data
+\i0 : The Coordinate Degree Decimal distance calculation didn\'92t come through perfectly as I had to adjust the Radius of the Earth metric by a magnitude of 10. \uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Wearing Different Hats
+\f1\fs24 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 I think I enjoy building the engine as well as decorating the program, which translates to the data engineering role as well as the UX designer. Eventually, I want to be the statistical strategist when it comes to evaluating and selecting machine learning models because that\'92s where the interesting problems are as well as the technological muscle.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\b\fs29\fsmilli14667 \cf2 Things I could have done better
+\f1\i0\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls6\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Frontload the workload: Underestimated how difficult it was to get a working script and I could have done a lot more earlier.\uc0\u8232 \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Using Exceptions for error proofing as opposed to a brute force while loop that forces people to enter the right range of answers\uc0\u8232 \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Been more reasonable with resources, experience, and time line: There were a bunch of other interactive classes I wanted to implement i.e. class hotDate(restauranter): that builds funny encounters with you at night based on what activities you do\uc0\u8232 \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Focus less on the style, more on the substance. Ironically working in an advertising, it\'92s more about presentation and making a strong impression, not necessarily on the difficult long term solution. (from my personal experience) Better manage hats to minimize the emphasis on the UI stylistics and ensure that the engine is working smoothly\uc0\u8232 \
+}

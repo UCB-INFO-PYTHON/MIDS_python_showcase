@@ -1,0 +1,24 @@
+PROJECT DE-BRIEF
+
+This project was a lot of fun to do, as I was able to incorporate my new Python skills with my love for Star Wars. I was able to create a game where the player navigates through a minituarized galaxy, the goes through a simple navigation of the Death Star before fighting Darth Vader. Toward the end of hte project, it became difficult to keep track of my code, so I made many petty errors such as using the wrong method name, inputting the wrong variable type, etc. In the future, I believe I will keep a sheet with all my created classes to ensure I use certain objects properly. Other than that, I did not encounter many problems, as the project was fairly straightforward.
+
+
+Notes and Considerations
+-	Note that I did end up using two outside modules: the system method from the os module - os.system(‘clear’) - and the sleep method from the time module - time.sleep(<number>) - as the game involves a massive amount of reading on the part of the user. os.system(‘clear’) clears the terminal screen, and time.sleep(<number>) waits for an inputted number of seconds before continuing to execute the program. Thus, these importations did not contribute to the mechanisms of the game but instead made it easier to view for the user. I used the os module on 17 lines, and the time module on 12 lines, so these lines will not be counted in my final line count (see ‘Grading’).
+-	For ease of use, I run the entire game on a while loop, that will try: run the game and except: allow the user to return to the main menu. This feature makes gameplay a lot smoother, as one can identify where there is an error and then start the game over. To disable this feature, simply delete lines 417-413 and replace them with the menu() function.
+
+Grading
+  Total Line Count:
+  429 lines total – 2 import statements for time and os – 16 uses of os.system – 13 uses of time.sleep - 23 blank lines = << 375 lines >>
+
+  Tips for Playing While Grading
+  -	WILL ONLY WORK ON A MAC.
+  -	Play as Luke
+  -	Enter the escape pod – virtually no chance of dying
+  -	Choose to add +2 to your weapon damage
+  -	Use the map.jpg in the folder to help navigate to the Death Star
+  -     Go to Endor and Kashyyyk and trade for crystals and/or health packs.
+  -	In the Death Star, take all health packs and crystals and use them before fighting Darth Vader.
+  -	Be prepared to lose a few times before winning.
+  -	If the game seems to stop, it is only paused via time.sleep. Just wait a second and it will resume.
+  - When the screen clears via os.system('clear'), simply scroll up if you'd like to see any previous text.

@@ -1,0 +1,185 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red38\green38\blue38;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c20000\c20000\c20000;\cssrgb\c100000\c100000\c100000;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \outl0\strokewidth0 \strokec2 Project Proposal
+\f1\b0\fs24 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f0\i \cf2 Robert Deng
+\f1\i0 \
+
+\f0\i Python Bridge Thursdays 4PM
+\f1\i0 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf2 Game Concept:
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Create a virtual traveling & eating game based on Yelp API data. Imagine you graduated from your graduate school data science program and you have a large stockpile of cash saved up. You want to travel and try various adventurous cuisines on your limited budget. Start at your home destination and fly to a city you want to explore. Everyday you get 3 meals and 3 activities.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Simply continue planning and going through your itinerary of things to do based on real world time. The game will prompt you with suggestions and funny emojis throughout. You start Thursday morning, May 4th the week you get a break from class and iterates through the Sunday night, May 7th at around 11PM.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf2 Class Structure
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Menu Prompt\ulnone  (Parent Class)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs29\fsmilli14667 \cf2 Important Methods:
+\f1\i0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls1\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ask(self): prompts user for activity/restaurant + location queries. Takes API call & translates JSON to PANDAS Dataframe\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 menuPrint(self): prints subset of dataframe restaurants and confirms with the user that this is the intended query\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 menuSelection(self): lets user input an index selection of which activity to choose and confirms that\'92s the right choice\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs29\fsmilli14667 \cf2 Important Attributes:
+\f1\i0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls2\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Snippet: used as small quip pulled from user reviews to inform user about the destination\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Location/longitude/latitude: set up for distance calculation\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Menu: Pandas dataframe of query, typically only print name, review_count, and rating because of display window limits\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \ul \ulc2 Restauranteur\ulnone  (Child Class)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs29\fsmilli14667 \cf2 Important Methods:
+\f1\i0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls3\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 askNext(self, eventHour): sequences the ask, menuPrint, and menuSelection methods from parent class. Pulls in a potential next destination, does a distance calculation, provides an Uber cab fare, and asks if this is acceptable. Some error handling built in. Once a destination is selected, the class attributes get updated with appended attributes. eventHour counts how many hours it would take for the event (manually adjusted for breakfast, lunch, dinner and activities in between)\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 night(self): ends the day, sleep for 8 hours\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 dashboard(self): prints a status of all the relevant attributes: placesBeen, wallet, stomach (things eaten), and time\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 emoji(self): prompts self-emoji expressions when you eat certain things, prompts suggestions based on time of day\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs29\fsmilli14667 \cf2 Important Attributes:
+\f1\i0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls4\ilvl0
+\f0\fs29\fsmilli14667 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Wallet: Cash allowance, which gets deducted every time you go somewhere to eat / by cab\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Stomach: categories of yelp places consumed, builds prompts for emoji\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Time: datetime object incremented based on activity / time of day\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 placesBeen: historical list of locations with listed pairs of longitude, latitude\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Restaurant/Activity Categories: build prompts for emoji\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf2 \ul \ulc2 Appendix
+\f1\b0\fs24 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf2 Connect to Yelp API
+\f1\b0\fs24 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 #get consumer key, secret, token, token secret
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 #rauth, build custom API URL
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 #Build a function that takes in restaurant type and location and outputs a dataframe of the yelp listings:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 Df.info() looks like:
+\f1\fs24 \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2 \cf3 \cb4 \strokec3 categories \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 display_phone \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 id \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 image_url \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 is_claimed \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null bool\cb1 \uc0\u8232 \cb4 is_closed \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null bool\cb1 \uc0\u8232 \cb4 location.address \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.city \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.coordinate.latitude \'a0\'a0\'a0\'a020 non-null float64\cb1 \uc0\u8232 \cb4 location.coordinate.longitude \'a0\'a0\'a020 non-null float64\cb1 \uc0\u8232 \cb4 location.country_code \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.cross_streets \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a019 non-null object\cb1 \uc0\u8232 \cb4 location.display_address \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.geo_accuracy \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null float64\cb1 \uc0\u8232 \cb4 location.neighborhoods \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.postal_code \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 location.state_code \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 menu_date_updated \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a015 non-null float64\cb1 \uc0\u8232 \cb4 menu_provider \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a015 non-null object\cb1 \uc0\u8232 \cb4 mobile_url \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 name \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 phone \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 rating \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null float64\cb1 \uc0\u8232 \cb4 rating_img_url \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 rating_img_url_large \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 rating_img_url_small \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 review_count \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null int64\cb1 \uc0\u8232 \cb4 snippet_image_url \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 snippet_text \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object\cb1 \uc0\u8232 \cb4 url \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a020 non-null object
+\f1 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2 \cf3 \cb4 \strokec3 Actual DF looks like:
+\f1 \cf2 \cb1 \strokec2 \
+
+\f2 \cf3 \cb4 \strokec3 name \'a0rating \'a0\\\cb1 \uc0\u8232 \cb4 0 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0BARZOTTO \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 1 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Beretta \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 2 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0La Traviata \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Delfina \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Sorrel \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 5 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Mozzeria \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 6 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Locanda \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Valencia Pizza & Pasta \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 8 \'a0\'a0Pizzeria Delfina - San Francisco \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 9 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Emmy's Spaghetti Shack \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 10 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Flour + Water \'a0\'a0\'a0\'a03.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 11 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Fiore Caff\'e8 \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 12 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Heirloom Cafe \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 13 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Montella Pizzeria \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 14 \'a0\'a0\'a0Farina Pizza & Cucina Italiana \'a0\'a0\'a0\'a03.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 15 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Farina \'a0\'a0\'a0\'a03.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 16 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Firepie \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 17 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Serrano's Pizza \'a0\'a0\'a0\'a03.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 18 \'a0\'a0\'a0\'a0\'a0\'a0\'a0Pauline's Pizza & Wine Bar \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 19 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0La Ciccia \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \u8232 \cb4  \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0categories \'a0\'a0location.city \'a0\\\cb1 \uc0\u8232 \cb4 0 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 1 \'a0\'a0[[Italian, italian], [Bars, bars], [Pizza, piz... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 2 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian], [Pizza, pizza]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 4 \'a0\'a0[[American (New), newamerican], [Italian, ital... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 5 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Pizza, pizza], [Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 6 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian], [Bars, bars]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 7 \'a0\'a0[[Pizza, pizza], [Italian, italian], [Breakfas... \'a0San \'a0Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Pizza, pizza], [Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 9 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 10 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian], [Pizza, pizza]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 11 \'a0[[Italian, italian], [Breakfast & Brunch, brea... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 12 \'a0[[Cafes, cafes], [French, french], [Italian, i... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 13 \'a0[[Pizza, pizza], [Beer Bar, beerbar], [Salad, ... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 14 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Italian, italian], [Pizza, pizza]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 15 \'a0[[Italian, italian], [Salad, salad], [Pizza, p... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 16 \'a0[[Pizza, pizza], [Food Delivery Services, food... \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 17 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Pizza, pizza], [Italian, italian]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 18 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[[Pizza, pizza], [Wine Bars, wine_bars]] \'a0\'a0San Francisco \'a0\'a0\cb1 \uc0\u8232 \cb4 19 \'a0\'a0\'a0\'a0\'a0\'a0[[Seafood, seafood], [Sardinian, sardinian]] \'a0\'a0San Francisco \'a0
+\f1 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs29\fsmilli14667 \cf3 \cb4 \strokec3 Samples of other Queries (Museums)
+\f1\b0\fs24 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2 \cf3 \cb4 \strokec3  name \'a0\'a0\'a0\'a0\'a0\'a0phone \'a0rating \'a0\\\cb1 \uc0\u8232 \cb4 0 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Detroit Institute of Arts \'a03138337900 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 1 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Motown Historical Museum \'a03138752264 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 2 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Detroit Historical Museum \'a03138331805 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 3 \'a0\'a0Charles H Wright Museum of African American Hi... \'a03134945800 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0MOCAD - Museum of Contemporary Art Detroit \'a03138326622 \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 5 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Michigan Science Center \'a03135778400 \'a0\'a0\'a0\'a04.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 6 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Ford Piquette Avenue Plant \'a03138728759 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Pewabic \'a03136262000 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0The Henry Ford \'a03139826001 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 9 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Dossin Great Lakes Museum \'a03138335538 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 10 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0MBAD's African Bead Museum \'a03138983007 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 11 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Dabl's Gallery \'a03138983007 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 12 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0The Detroit Institute For Children \'a03138321100 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 13 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Edsel & Eleanor Ford House \'a03138844222 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 14 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Ford Rouge Factory Tour \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0NaN \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 15 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Marvin's Marvelous Mechanical Museum \'a02486265020 \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 16 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Cranbrook Institute of Science \'a02486453200 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 17 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Holocaust Memorial Center \'a02485532400 \'a0\'a0\'a0\'a05.0 \'a0\'a0\cb1 \uc0\u8232 \cb4 18 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Greenfield Village \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0NaN \'a0\'a0\'a0\'a04.5 \'a0\'a0\cb1 \uc0\u8232 \cb4 19 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Arab American National Museum \'a03135822266 \'a0\'a0\'a0\'a04.0 \'a0
+\f1 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+}

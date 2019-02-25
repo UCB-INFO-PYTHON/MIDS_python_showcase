@@ -1,0 +1,110 @@
+Project Idea: Minesweeper
+
+A spin of the popular game, with a customizable board, playable on the
+terminal. This is a grid-style game with mines placed on a board.
+Figure out which squares are mines by the hint square. Each square
+displays the number of mines that surround it.
+
+Features:
+- Can change flags into different symbols (♥, ☺, ☃)
+- Can choose to play a classic round: (Beginner (8x8, 10 mines),
+  Intermediate (16x16, 40 mines) and Expert (24x24, 99 mines))
+- or choose their own board size (up to 26x26) and mine amount (not
+  exceeding the square count - 1)
+- Saves user's wins and losses, so that you can view your scores
+
+Python Files:
+- main.py: the interface, where you begin the game and User database is
+  initiated and saved. Also contains User class.
+- board.py: where the Board and corresponding classes live. Contains
+  Board, Move, Square, and Square children classes. 
+
+Classes:
+- Board: stores information about the board
+  - the board you play on, stores many variables (all the different
+    squares), and is moved by Move class
+
+- BoardGenerator: instantiates a Board with the correct settings (row,
+  column, mines, theme)
+  - returns a blank Board and answer key
+
+- Move: a class to organize all of the moves: check_move, make_move,
+  flag_move, is_valid_move
+	"quit": brings you back to the beginning screen or quits completely
+	"flag" xx: puts a flag on the grid position xx
+	"unflag" xx: unflags the grid position xx
+	"reveal" xx: checks the grid position xx
+
+- Square: parent class for all types of squares
+  - view: has a set or a dictionary with the associated squares
+  - Revealed(Square): Keeps track of all of the revealed squares, so we
+    know what to print out on the board (hint or 0).
+  - Unrevealed(Square): Keeps track of all of the unrevealed quares, so
+    we know what to print out on the board (.).
+  - Flagged(Square): Keeps track of all of the flagged squares, so we
+    know what to print out on the board (flag keys).
+  - BlankSquare(Square): Keeps track of all of the Blank Square groups
+    because if you correctly reveal a blank square, it should reveal
+    all of the blank squares touching it.
+  - NotMine(Square): Contains all of the squares that aren't associated
+    to a mine.
+
+- User: has functions that keep track of the user's score, change board
+  default settings and themes, and begin playing the game.
+  - VARIABLES: name, win, loss, theme, and scores
+  - FUNCTIONS: loses, wins, quits, scores, change_theme, create_board,
+    change_board, play
+
+- - - - - - - - - - - - - - - - - - - - - - - 
+W e l c o m e  t o  M i n e s w e e p e r !
+
+to begin playing, pick a mode:
+
+beginner (b) | intermediate (i) | expert (e)
+
+in addition, you can customized your board:
+
+change flags (f) | make your own board (o)
+
+look at my scores (s)
+
+quit the game :( (q)
+
+*** Play your own board: ***
+- - - - - - - - - - - - - - - - - - - - - - - 
+
+Classic boards sizes: 
+Beginner (8x8, 10 mines)
+Intermediate (16x16, 40 mines)
+Expert (24x24, 99 mines))
+
+choose grid size: __________
+choose mine amount: __________
+
+
+Beginner Board Example:
+
+    A B C D E F G H I
+---------------------
+1 | . . . . . . . . .
+2 | . . . . . . . . .
+3 | . . . . . . . . .
+4 | . . . . . . . . .
+5 | . . . . . . . . .
+6 | . . . . . . . . .
+7 | . . . . . . . . .
+8 | . . . . . . . . .
+9 | . . . . . . . . .
+
+Successfully Finished Board:
+    A B C D E F G H I
+---------------------
+1 | ♥ 1 1 1 1 0 1 1 1
+2 | 1 1 1 ♥ 1 0 1 ♥ 1
+3 | 0 0 1 1 2 1 2 1 1
+4 | 0 1 1 1 1 ♥ 1 0 0
+5 | 1 2 ♥ 1 1 1 1 0 0
+6 | ♥ 3 1 1 1 1 1 0 0
+7 | ♥ 2 0 0 1 ♥ 2 1 1
+8 | 1 1 1 1 2 1 2 ♥ 1
+9 | 0 0 1 ♥ 1 0 1 1 1

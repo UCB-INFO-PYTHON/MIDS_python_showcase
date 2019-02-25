@@ -1,0 +1,89 @@
+Brief Intro:
+
+You have been trapped in a maze filled with white walker snakes.  Why white walker snakes?  Because Gunnar wanted white walkers but I wanted to draw snakes.  Who is Gunnar?  Who am I?  Never mind all that, you've got escaping to do. In order to escape you must collect three parts to your jetpack which is an exact replica of the jetpack used in the legendary 1991 film, "The Rocketeer."  Why am I referencing an obscure 1991 Disney film?  YOU DON'T HAVE TIME FOR SUCH QUESTIONS!  GO FIND YOUR JETPACK.
+
+Classes:
+*mazeMap
+  -in_map #list of things in the map
+  -generate_map_from_room_list
+  *room
+*engine
+  -start_game()
+    number of snakes based on difficult
+    random starting location of all items, no more than one per room
+    all items will start in center of their room (to avoid being placed outside walls)
+  -draw_frame()
+    choose a middle point, hight and width to print from the mazeMap
+  -turn()
+    move_snakes()  #snakes move first, only redraw on interact
+    get_user_movement() #redraw on interact
+    draw_all()
+
+*entity
+  -location
+  -move()
+    check to see if destination has character in it (wall or entity)
+    update location:
+      remove character from old location
+      place character in new location
+  -interaction()
+  *hero
+  *snake
+    -torso_location
+    -tail_location
+    -update_torso_tail()
+    -choose_random_direction()
+  *jetpackPart
+
+====about the code I've tinkered with
+In experimentation I've written a bit of code that takes a pre-formatted string and makes a full size map in 2-d array (which I can then print to a text file).  I believe that I can take some functionality that functionality and use it as the basis for my mazeMap.  My next immediate steps will be to reshape this code into a more organized class system and then add in the ability to add in character to represent entities and figure out how to print only part of the map based on where the
+
+
+I've written code that takes:
+minimap1= '''\
+╔╦═╦╗
+╠╬╦╩╣
+║╠╬═╣
+╠╣╨╔╣
+╚╩═╩╝'''
+and creates a map, like this:
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒╬══════╬════════════╬══════╬════════════╬══════╬════════════╬══════╬════════════╬══════╬▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬▒▒▒▒▒▒▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║                                                                  ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║                                                                  ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬▒▒▒▒▒▒▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬▒▒▒▒▒▒▒▒▒▒▒▒╬      ╬▒▒▒▒▒▒▒▒▒▒▒▒╬══════╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║                          ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║                          ║▒▒▒▒▒▒
+▒▒▒▒▒▒║                          ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║                          ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬▒▒▒▒▒▒▒▒▒▒▒▒╬══════╬▒▒▒▒▒▒▒▒▒▒▒▒╬      ╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒▒▒▒▒▒▒║      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬      ╬════════════╬      ╬════════════╬══════╬════════════╬      ╬════════════╬      ╬▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒║                                                                                      ║▒▒▒▒▒▒
+▒▒▒▒▒▒╬══════╬════════════╬══════╬════════════╬══════╬════════════╬══════╬════════════╬══════╬▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
