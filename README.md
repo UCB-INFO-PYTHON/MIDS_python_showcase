@@ -44,24 +44,24 @@ These examples are selected as the best of the best projects. They serve to show
 ### Spring 2018
 
 1. Minesweeper
-*byJennifer Be*
+*by Jennifer Be*
 [code](/project_1/past_examples/Minesweeper_Jennifer_Be)
 - Reason for selection: " " - Prof. Llop
 
 2. Life Planner
-*by ZhaoningYu*
+*by Zhaoning Yu*
 [code](/project_1/past_examples/LifePlanner_ZhaoningYu)
 
 - Reason for selection: "Solid use of OOP and the best example of a project 1 design document that I have seen to date; Zhaoning said that writing the document clarified his understanding" - Prof. Kleemann
 
 3. MazeWalker
-*by CollinReinking*
+*by Collin Reinking*
 [code](/project_1/past_examples/MazeWalker_CollinReinking)
 - Reason for selection: "This is the first sucessful use of curses to make a graphic based video game. The use of text files to specify the maze shape makes this very flexible; look at the video for an overview" - Prof. Kleemann
 
 
 4. Production Line
-*by Chris Hipple *
+*by Chris Hipple*
 [code](/project_1/past_examples/ProductionLine_C_Hipple)
  - Reason for selection: "An impresive and well organized example of modeling a complex environment using OOP" - Prof. Kleemann
 
@@ -101,7 +101,7 @@ BikeTrail
 ### Summer 2016 - Under Graduate
 
 Star_Wars 
-* by Manish Singh*
+*by Manish Singh*
 [code](/project_1/past_examples/Star_Wars_Manish_Singh)
 - Reason for selection: " " - Prof. Llop
 
@@ -116,8 +116,6 @@ TripPlan_MC_P1
 TownTasks_MJT_P1
 [code](/project_1/past_examples/TownTasks_MJT_P1)
 - Reason for selection: "Our first example of a modeled town. Intuitive UI written entirely in text." - Prof. Kleemann
-
-
 
 ----
 #### Project 2 - analytical summary
