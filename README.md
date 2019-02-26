@@ -44,12 +44,38 @@ These examples are selected as the best of the best projects. They serve to show
 ### Spring 2018
 
 Minesweeper_Jennifer_Be
+[code](/project_1/past_examples/Minesweeper_Jennifer_Be)
+- Reason for selection: " " - Prof. Llop
+
+Life Planner
+
+*by ZhaoningYu*
+
+[code](/project_1/past_examples/LifePlanner_ZhaoningYu)
+
+Reason for selection: "Solid use of OOP and the best example of a project 1 design document that I have seen to date; Zhaoning said that writing the document clarified his understanding" - Prof. Kleemann
+
+MazeWalker
+*by CollinReinking*
+
+Reason for selection: "This is the first sucessful use of curses to make a graphic based video game. The use of text files to specify the maze shape makes this very flexible; look at the video for an overview" - Prof. Kleemann
+
+[code](/project_1/past_examples/MazeWalker_CollinReinking)
+
+Production Line
+
+*by Chris Hipple **
+
+[code](/project_1/past_examples/ProductionLine_C_Hipple)
+
+Reason for selection: " " - Prof. Kleemann
+
 
 ### Fall 2017
 
 Spacebunnies 
 *by Matt Thielen* 
-[code](https://github.com/UCB-INFO-PYTHON/MIDS_python_showcase/tree/master/project_1/past_examples/SpaceBunnies_Mattthiel)
+[code](/project_1/past_examples/SpaceBunnies_Mattthiel)
 
 - Reason for selection: "Very creative use the command line to make an engaging game. Intuitive UX" - Prof. Kleemann
 
@@ -59,7 +85,7 @@ Spacebunnies
 Yelper
 *by Robert Deng*
 [code](/project_1/past_examples/Yelper_RobertDeng)
-- Reason for selection: "Use of the Yelp APIto make a very flexable tool, our fist example of the integration of an API into porject 1 " - Prof. Kleemann
+- Reason for selection: "Our best example of the integration of an API into project 1, The use of the Yelp API to make a very flexable tool" - Prof. Kleemann
 
 ### Spring 2017
 
@@ -72,23 +98,36 @@ Whirlypigs
 - Reason for selection: "Very creative program that is clearly written and uses OOP skillfully. " - Prof. Kleemann
 
 
-### Summer 2016
+### Summer 2016 - Graduate
+
+BikeTrail
+
+*by Matt Stevenson*
+
+[code](/project_1/past_examples/BikeTrail_MStevenson)
+- Reason for selection: "Our first example of the use of Project 1 to map a complex physical environment. High level of applicability to the student's life" - Prof. Kleemann
+
+
+### Summer 2016 - Under Graduate
+
+Star_Wars 
+
+* by Manish Singh*
+
+[code](/project_1/past_examples/Star_Wars_Manish_Singh)
+- Reason for selection: " " - Prof. Llop
+
+ATM_CMP_P1
+[code](/project_1/past_examples/ATM_CMP_P1
+
+TripPlan_MC_P1
+[code](/project_1/past_examples/TripPlan_MC_P1
 
 
 TownTasks_MJT_P1
-[code](/TownTasks_MJT_P1
+[code](/project_1/past_examples/TownTasks_MJT_P1)
 - Reason for selection: " " - Prof. Kleemann
 
-BikeTrail
-by Matt Stevenson
-
-[code](/project_1/past_examples/BikeTrail_MStevenson)
-- Reason for selection: " " - Prof. Kleemann
-
-Star_Wars
-* by Manish Singh*
-[code](
-- Reason for selection: " " - Prof. Llop
 
 
 ----
