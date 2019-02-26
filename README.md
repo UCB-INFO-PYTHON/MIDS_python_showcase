@@ -43,32 +43,27 @@ These examples are selected as the best of the best projects. They serve to show
 
 ### Spring 2018
 
-Minesweeper_Jennifer_Be
+1. Minesweeper
+*byJennifer Be*
 [code](/project_1/past_examples/Minesweeper_Jennifer_Be)
 - Reason for selection: " " - Prof. Llop
 
-Life Planner
-
+2. Life Planner
 *by ZhaoningYu*
-
 [code](/project_1/past_examples/LifePlanner_ZhaoningYu)
 
-Reason for selection: "Solid use of OOP and the best example of a project 1 design document that I have seen to date; Zhaoning said that writing the document clarified his understanding" - Prof. Kleemann
+- Reason for selection: "Solid use of OOP and the best example of a project 1 design document that I have seen to date; Zhaoning said that writing the document clarified his understanding" - Prof. Kleemann
 
-MazeWalker
+3. MazeWalker
 *by CollinReinking*
-
-Reason for selection: "This is the first sucessful use of curses to make a graphic based video game. The use of text files to specify the maze shape makes this very flexible; look at the video for an overview" - Prof. Kleemann
-
 [code](/project_1/past_examples/MazeWalker_CollinReinking)
+- Reason for selection: "This is the first sucessful use of curses to make a graphic based video game. The use of text files to specify the maze shape makes this very flexible; look at the video for an overview" - Prof. Kleemann
 
-Production Line
 
-*by Chris Hipple **
-
+4. Production Line
+*by Chris Hipple *
 [code](/project_1/past_examples/ProductionLine_C_Hipple)
-
-Reason for selection: " " - Prof. Kleemann
+ - Reason for selection: "An impresive and well organized example of modeling a complex environment using OOP" - Prof. Kleemann
 
 
 ### Fall 2017
@@ -76,7 +71,6 @@ Reason for selection: " " - Prof. Kleemann
 Spacebunnies 
 *by Matt Thielen* 
 [code](/project_1/past_examples/SpaceBunnies_Mattthiel)
-
 - Reason for selection: "Very creative use the command line to make an engaging game. Intuitive UX" - Prof. Kleemann
 
 ### Summer 2017
@@ -94,16 +88,12 @@ Yelper
 Whirlypigs
 *by Charlotte Swavola*
 [code](https://github.com/UCB-INFO-PYTHON/MIDS_python_showcase/tree/master/project_1/past_examples/Whirlypigs_CSSwavola)
-
-- Reason for selection: "Very creative program that is clearly written and uses OOP skillfully. " - Prof. Kleemann
-
+- Reason for selection: "Very creative program that is clearly written and uses OOP skillfully. Great use of ASCII art to make a intuitive interface." - Prof. Kleemann
 
 ### Summer 2016 - Graduate
 
 BikeTrail
-
 *by Matt Stevenson*
-
 [code](/project_1/past_examples/BikeTrail_MStevenson)
 - Reason for selection: "Our first example of the use of Project 1 to map a complex physical environment. High level of applicability to the student's life" - Prof. Kleemann
 
@@ -111,22 +101,21 @@ BikeTrail
 ### Summer 2016 - Under Graduate
 
 Star_Wars 
-
 * by Manish Singh*
-
 [code](/project_1/past_examples/Star_Wars_Manish_Singh)
 - Reason for selection: " " - Prof. Llop
 
 ATM_CMP_P1
-[code](/project_1/past_examples/ATM_CMP_P1
+[code](/project_1/past_examples/ATM_CMP_P1)
+- Reason for selection: "A clearly coding style, good example of this classic OOP problem." - Prof. Kleemann
 
 TripPlan_MC_P1
-[code](/project_1/past_examples/TripPlan_MC_P1
-
+[code](/project_1/past_examples/TripPlan_MC_P1)
+- Reason for selection: "A fun and useful tool with a high level of general applicability." - Prof. Kleemann
 
 TownTasks_MJT_P1
 [code](/project_1/past_examples/TownTasks_MJT_P1)
-- Reason for selection: " " - Prof. Kleemann
+- Reason for selection: "Our first example of a modeled town. Intuitive UI written entirely in text." - Prof. Kleemann
 
 
 
