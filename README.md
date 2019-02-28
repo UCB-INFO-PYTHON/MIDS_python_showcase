@@ -28,7 +28,7 @@ These examples are selected as the best of the best projects. They serve to show
 
 - Reason for selection: "..." - Prof. Llop
 
-4. [Fight_Cancer_Game](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game/.)
+4. [Fight_Cancer_Game](https://ucb-info-python.github.io/Fight_Cancer_Game/)
 *by Chun-Jen Curtis Lin*
 [code](https://github.com/UCB-INFO-PYTHON/Fight_Cancer_Game)
 
