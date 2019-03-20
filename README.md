@@ -34,17 +34,15 @@ These examples are selected as the best of the best projects. They serve to show
 
 - Reason for selection: "Effective organization of probability-driven interacting objects" - Prof. Huntsinger
 
-5. Twitter sentiment
+5. [Twitter sentiment](https://ucb-info-python.github.io/EquitySentimentAnalyzer/)
 *by Robert Calzaretta*
-[code]()
+[code](https://github.com/UCB-INFO-PYTHON/EquitySentimentAnalyzer)
  - Reason for selection: "Cool extension to use Twitter API and Sentiment Analysis, while staying OOP." - Prof Llop 
 
 ### Summer 2018
 1. Dog-shelter
 *by Laura Pintos*
-
 [code](https://github.com/laurapintos/dog-shelter/)
-
  - Reason for selection: "Very clean and well thought out code. Intuitive game play that models a real application" - Prof Kleemann
 
 ### Spring 2018
