@@ -17,7 +17,7 @@ These examples are selected as the best of the best projects. They serve to show
 - Reason for selection: "Great Battleship implementation, wonderful error checking and UI.  Nice computer "AI" (shot optimizer algorithim)" Prof. Llop
 
 2. [Work Witch](https://ucb-info-python.github.io/WorkWitch_JDunn/.)
-*by Jay Dunn*
+*by Jimmy Dunn*
 [code](https://github.com/UCB-INFO-PYTHON/WorkWitch_JDunn)
 
 - Reason for selection: "Clean efficient code with a solid implentation of pygame and other advanced techniques" Prof. Kleemann
