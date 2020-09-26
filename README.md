@@ -14,13 +14,15 @@ These examples are selected as the best of the best projects. They serve to show
 *by Sandip Panesar*
 [code](https://github.com/UCB-INFO-PYTHON/Pathogen)
 
+2. [Focused Me](https://ucb-info-python.github.io/focusedme)
+*by Fabio Scopeta Rodrigues*
+[code] (https://github.com/UCB-INFO-PYTHON/focusedme)
+
+## Spring 2020
+
 2. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
 *by Tim Chen*
 [code] (https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
-
-3. [Focused Me](https://ucb-info-python.github.io/focusedme)
-*by Fabio Scopeta Rodrigues*
-[code] (https://github.com/UCB-INFO-PYTHON/focusedme)
 
 
 ## Fall 2018
