@@ -6,12 +6,15 @@ We get some pretty incredible projects from our python for data science course (
 
 These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester.
 
-Summer 2020
+## Summer 2020
 
 1. [Pathogen](https://ucb-info-python.github.io/Pathogen/)
 *by Sandip Panesar*
 [code](https://github.com/UCB-INFO-PYTHON/Pathogen)
 
+1. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
+*by Tim Chen *
+[code] (https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
 
 #### Project 1 - object oriented code base
 
