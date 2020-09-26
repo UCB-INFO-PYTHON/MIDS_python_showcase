@@ -6,9 +6,16 @@ We get some pretty incredible projects from our python for data science course (
 
 These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester.
 
-## Fall 2018
+Summer 2020
+
+1. [Pathogen](https://ucb-info-python.github.io/Pathogen/)
+*by Sandip Panesar*
+[code](https://github.com/UCB-INFO-PYTHON/Pathogen)
+
 
 #### Project 1 - object oriented code base
+
+## Fall 2018
 
 1. [Battleship game](https://ucb-info-python.github.io/BattleshipGame/.)
 *by Steve Dille*
