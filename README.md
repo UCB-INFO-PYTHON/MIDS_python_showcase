@@ -18,7 +18,7 @@ These examples are selected as the best of the best projects. They serve to show
 2. [Pathogen](https://ucb-info-python.github.io/Pathogen/)
 *by Sandip Panesar*
 [code](https://github.com/UCB-INFO-PYTHON/Pathogen)
-- Reason for selection: "" Prof. Kleemann
+- Reason for selection: "" Press [1] to play as a Virus. Press [2] to play as a Bacteria." Who has not wanted to do that! this creative game allows you to attack the body organ by organ. This twist on a fantasy game was a very nice mix of Sandip's triaining as a surgeon and his evolving skill as a data scientist. " Prof. Kleemann
 
 3. [Focused Me](https://ucb-info-python.github.io/focusedme)
 *by Fabio Scopeta Rodrigues*
@@ -28,14 +28,14 @@ These examples are selected as the best of the best projects. They serve to show
 4. [Trip planner](https://ucb-info-python.github.io/trip_planner)
 *by Ratan Singh*
 [code](https://github.com/UCB-INFO-PYTHON/trip_planner)
-- Reason for selection: "" Prof. Kleemann
+- Reason for selection: "Ratan merges the results of three travel site APIs to develop a custom travel itineary on demand. Versions of his code inculde a local GUI built with tkinter and a cloud based web app." Prof. Kleemann
 
 ## Spring 2020
 
 1. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
 *by Tim Chen*
 [code](https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
-- Reason for selection: "" Prof. Kleemann
+- Reason for selection: "Tim's project is a very practical and entertaining use of OOP merged with data science. it is also one of our first examples of code packaged in a clearly organized way for disrtibution and maintenance. The architeture ad modularity of hte code makes it very readable and easy to understand, very professional" Prof. Kleemann
 
 
 ## Fall 2018
