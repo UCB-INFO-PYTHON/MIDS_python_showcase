@@ -10,19 +10,32 @@ These examples are selected as the best of the best projects. They serve to show
 
 ## Summer 2020
 
-1. [Pathogen](https://ucb-info-python.github.io/Pathogen/)
+1. [baseball simulator](https://github.com/UCB-INFO-PYTHON/W200-Baseball-Simulator)
+*by Amanda Smith*
+[code](https://github.com/UCB-INFO-PYTHON/W200-Baseball-Simulator)
+- Reason for selection: "" Prof. Llop
+
+2. [Pathogen](https://ucb-info-python.github.io/Pathogen/)
 *by Sandip Panesar*
 [code](https://github.com/UCB-INFO-PYTHON/Pathogen)
+- Reason for selection: "" Prof. Kleemann
 
-2. [Focused Me](https://ucb-info-python.github.io/focusedme)
+3. [Focused Me](https://ucb-info-python.github.io/focusedme)
 *by Fabio Scopeta Rodrigues*
-[code] (https://github.com/UCB-INFO-PYTHON/focusedme)
+[code](https://github.com/UCB-INFO-PYTHON/focusedme)
+- Reason for selection: "" Prof. Kleemann
+
+4. [Trip planner](https://ucb-info-python.github.io/trip_planner)
+*by Ratan Singh*
+[code](https://github.com/UCB-INFO-PYTHON/trip_planner)
+- Reason for selection: "" Prof. Kleemann
 
 ## Spring 2020
 
-2. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
+1. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
 *by Tim Chen*
-[code] (https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
+[code](https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
+- Reason for selection: "" Prof. Kleemann
 
 
 ## Fall 2018
