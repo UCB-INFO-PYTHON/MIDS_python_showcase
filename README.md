@@ -4,7 +4,9 @@ We get some pretty incredible projects from our python for data science course (
 
 ---
 
-These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester.
+These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester. ** Please note that although the projects here are outstanding for various reasons, none of these are perfect. These are all student work and not perfect model examples. **
+
+
 
 #### Project 1 - object oriented code base
 
@@ -23,7 +25,7 @@ These examples are selected as the best of the best projects. They serve to show
 3. [Focused Me](https://ucb-info-python.github.io/focusedme)
 *by Fabio Scopeta Rodrigues*
 [code](https://github.com/UCB-INFO-PYTHON/focusedme)
-- Reason for selection: "" Prof. Kleemann
+- Reason for selection: "This is a very useful piece of code which builds a pomodoro timer for programmers. The code is clean and uses advanced techniques. Fabio took excellent initiative and released his code by pushing this to pypi (open source - pip installable) and used cookiecuter to make the architecture clean." Prof. Kleemann
 
 4. [Trip planner](https://ucb-info-python.github.io/trip_planner)
 *by Ratan Singh*
@@ -35,7 +37,7 @@ These examples are selected as the best of the best projects. They serve to show
 1. [Awesome Baby Names](https://ucb-info-python.github.io/awesome-baby-names/)
 *by Tim Chen*
 [code](https://github.com/UCB-INFO-PYTHON/awesome-baby-names)
-- Reason for selection: "Tim's project is a very practical and entertaining use of OOP merged with data science. it is also one of our first examples of code packaged in a clearly organized way for disrtibution and maintenance. The architeture ad modularity of hte code makes it very readable and easy to understand, very professional" Prof. Kleemann
+- Reason for selection: "Tim's project is a very practical and entertaining use of OOP merged with data science. it is also one of our first examples of code packaged in a clearly organized way for disrtibution and maintenance. The architeture ad modularity of hte code makes it very readable and easy to understand, very professional." Prof. Kleemann
 
 
 ## Fall 2018
