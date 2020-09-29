@@ -4,7 +4,7 @@ We get some pretty incredible projects from our python for data science course (
 
 ---
 
-These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester. ** Please note that although the projects here are outstanding for various reasons, none of these are perfect. These are all student work and not perfect model examples. **
+These examples are selected as the best of the best projects. They serve to show the current Python students what is possible. As a result of this we see progressively better projects every semester. Projects are sorted by semester. *Please note that although the projects here are outstanding for various reasons, none of these are perfect. These are all student work and not perfect model examples.*
 
 
 
