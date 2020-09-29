@@ -1,4 +1,4 @@
-# The UC Berkeley Masters of Data Science (MIDS) pyhton project showcase
+# The UC Berkeley Masters of Data Science (MIDS - W200) python project showcase
 
 We get some pretty incredible projects from our python for data science course (W200). We have chosen the best of them to put in this public facing showcase. There are two types of projects in the showcase
 
