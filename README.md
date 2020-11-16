@@ -22,7 +22,7 @@ These examples are selected as the best of the best projects. They serve to show
 [code](https://github.com/UCB-INFO-PYTHON/Pathogen)
 - Reason for selection: "" Press [1] to play as a Virus. Press [2] to play as a Bacteria." Who has not wanted to do that! this creative game allows you to attack the body organ by organ. This twist on a fantasy game was a very nice mix of Sandip's triaining as a surgeon and his evolving skill as a data scientist. " Prof. Kleemann
 
-3. [Focused Me](https://ucb-info-python.github.io/focusedme)
+3. [Focused Me](https://github.com/UCB-INFO-PYTHON/focusedme/blob/master/README.rst)
 *by Fabio Scopeta Rodrigues*
 [code](https://github.com/UCB-INFO-PYTHON/focusedme)
 - Reason for selection: "This is a very useful piece of code which builds a pomodoro timer for programmers. The code is clean and uses advanced techniques. Fabio took excellent initiative and released his code by pushing this to pypi (open source - pip installable) and used cookiecuter to make the architecture clean." Prof. Kleemann
