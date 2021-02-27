@@ -11,7 +11,7 @@ These examples are selected as the best of the best projects. They serve to show
 #### Project 1 - object oriented code base
 
 ## Fall 2020
-<div style="page-break-after: always;">
+
 
 1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 *by Peter (Young Ha) Kim* [code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
@@ -19,9 +19,6 @@ These examples are selected as the best of the best projects. They serve to show
 <img src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="250" >
 
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
-
-</div>
-
 
 
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
@@ -33,8 +30,6 @@ These examples are selected as the best of the best projects. They serve to show
 *by Razal Minhas*
 [code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
-
-<div style="page-break-after: always;"> 
  
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 *by Tomas (Chengchun) Gao * [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
@@ -42,9 +37,6 @@ These examples are selected as the best of the best projects. They serve to show
 <img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="200" >
 
 - Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
-
-</div>
-
 
 
 5. [pymaze (multiplayer)](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
@@ -236,12 +228,4 @@ Reason for selection: "Effective drill-down to detailed data" - Prof. Huntsinger
 *by Dr. Alexander Müller, Kevin Stone*
 - Note: Access is for MIDS internally only. Please request.
 - Reason for selection: "Data types; research questions; from overview to increasing details; charts/choropleth; conclusions" - Prof Benoit	
-
-
-
-
-
-
-
-
 
