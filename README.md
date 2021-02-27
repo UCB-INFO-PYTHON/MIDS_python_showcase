@@ -39,16 +39,18 @@ These examples are selected as the best of the best projects. They serve to show
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 *by Tomas (Chengchun) Gao * [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 
-<img align="left" src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="250" >
+<img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="200" >
+
+- Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
 
 </div>
 
-- Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
+
 
 5. [pymaze (multiplayer)](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
 *by Jon Miller* [code](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
 
-<img src="https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="250" >
+<img src="https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="200" >
 
 
 - Reason for selection: "This one goes above and beyond. Iook at this to see how you can build a networked first person shooter game." Prof. Kleemann
