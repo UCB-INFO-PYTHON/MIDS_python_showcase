@@ -15,7 +15,9 @@ These examples are selected as the best of the best projects. They serve to show
 1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 *by Peter (Young Ha) Kim* [code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 
-<img align="right" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="50" >
+<img align="left" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="150" >
+
+<div style="page-break-after: always;"></div>
 
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
 
