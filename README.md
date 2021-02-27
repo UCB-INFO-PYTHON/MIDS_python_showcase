@@ -16,13 +16,13 @@ These examples are selected as the best of the best projects. They serve to show
 1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 *by Peter (Young Ha) Kim* [code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 
-<img align="right" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="300" >
+<img src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="250" >
 
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
 
 </div>
 
-----
+
 
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
 *by Rui Li* 
@@ -39,7 +39,7 @@ These examples are selected as the best of the best projects. They serve to show
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 *by Tomas (Chengchun) Gao * [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 
-<img img align="left" src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="150" >
+<img align="left" src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="250" >
 
 </div>
 
@@ -48,7 +48,7 @@ These examples are selected as the best of the best projects. They serve to show
 5. [pymaze (multiplayer)](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
 *by Jon Miller* [code](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
 
-<img src="https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="350" >
+<img src="https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="250" >
 
 
 - Reason for selection: "This one goes above and beyond. Iook at this to see how you can build a networked first person shooter game." Prof. Kleemann
