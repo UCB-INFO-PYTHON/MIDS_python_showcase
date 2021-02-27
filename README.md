@@ -17,6 +17,8 @@ These examples are selected as the best of the best projects. They serve to show
 
 <img src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="350" >
 
+<img align="right" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="350" >
+
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
 
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
