@@ -22,9 +22,9 @@ These examples are selected as the best of the best projects. They serve to show
 [code](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
 - Reason for selection: "Rui's grocery list program leverages many python functionalities including GUI generation, API calls, and the use of an SQL database." Prof. Kleemann
 
-2. [Dungeon's game](COMING SOON)
+2. [Dungeon's game](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 *by Razal Minhas*
-[code](COMING SOON))
+[code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
 
 1. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
