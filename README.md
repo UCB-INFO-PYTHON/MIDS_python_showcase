@@ -13,11 +13,10 @@ These examples are selected as the best of the best projects. They serve to show
 ## Fall 2020
 
 1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
-*by Peter (Young Ha) Kim*
+*by Peter (Young Ha) Kim* [code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 
 <img src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="350" >
 
-[code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
 
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
@@ -31,19 +30,19 @@ These examples are selected as the best of the best projects. They serve to show
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
 
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
-*by Tomas (Chengchun) Gao *
+*by Tomas (Chengchun) Gao * [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 
 <img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="350" >
 
-[code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
+
 - Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
 
 5. [pymaze (multiplayer)](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
-*by Jon Miller*
+*by Jon Miller* [code](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
 
 <img src="https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="350" >
 
-[code](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
+
 - Reason for selection: "This one goes above and beyond. Iook at this to see how you can build a networked first person shooter game." Prof. Kleemann
 
 ## Summer 2020
