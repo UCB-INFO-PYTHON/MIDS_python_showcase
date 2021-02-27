@@ -10,6 +10,38 @@ These examples are selected as the best of the best projects. They serve to show
 
 #### Project 1 - object oriented code base
 
+## Fall 2020
+
+1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
+*by Peter (Young Ha) Kim*
+[code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
+- Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
+
+2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
+*by Rui Li* 
+[code](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
+- Reason for selection: "Rui's grocery list program leverages many python functionalities including GUI generation, API calls, and the use of an SQL database." Prof. Kleemann
+
+2. [Dungeon's game](COMING SOON)
+*by Razal Minhas*
+[code](COMING SOON))
+- Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
+
+1. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
+*by Tomas (Chengchun) Gao *
+
+![testimage1] (https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png)
+
+<img src="/https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png" alt="Game Board" width="350" >
+
+[code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
+- Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
+
+1. [pymaze (multiplayer)](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
+*by Jon Miller*
+[code](https://github.com/UCB-INFO-PYTHON/pymaze-multiplayer.git)
+- Reason for selection: "This one goes above and beyond. Iook at this to see how you can build a networked first person shooter game." Prof. Kleemann
+
 ## Summer 2020
 
 1. [baseball simulator](https://github.com/UCB-INFO-PYTHON/W200-Baseball-Simulator)
