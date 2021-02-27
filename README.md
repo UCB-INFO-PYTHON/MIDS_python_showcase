@@ -31,18 +31,26 @@ These examples are selected as the best of the best projects. They serve to show
 *by Tomas (Chengchun) Gao *
 
 ![testimage1] (https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png)
+
 ![testimage1] (Gomoku/blob/main/game_board.png)
+
 ![testimage1] (/Gomoku/blob/main/game_board.png)
+
 ![testimage1] (Gomoku/main/game_board.png)
 
 <img src="/https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png" alt="Game Board" width="350" >
+
 <img src="/Gomoku/blob/main/game_board.png" alt="Game Board" width="350" >
+
 <img src="/Gomoku/main/game_board.png" alt="Game Board" width="350" >
+
 <img src="Gomoku/main/game_board.png" alt="Game Board" width="350" >
 
 ![testimage1] (/game_board.png)
 
 <img src="/game_board.png" alt="Game Board" width="350" >
+
+<img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="350" >
 
 
 
