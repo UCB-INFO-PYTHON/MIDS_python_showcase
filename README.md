@@ -11,15 +11,18 @@ These examples are selected as the best of the best projects. They serve to show
 #### Project 1 - object oriented code base
 
 ## Fall 2020
+<div style="page-break-after: always;">
 
 1. [Chess game](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 *by Peter (Young Ha) Kim* [code](https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1)
 
-<img align="left" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="250" >
+<img align="right" src="https://github.com/UCB-INFO-PYTHON/berkeley_python_project_1/raw/main/board.png?raw=true" alt="Game Board" width="300" >
 
 - Reason for selection: "Peter's project offers an in-depth stateful approach to the chess game that combines various strategies integrating reinforcement learning into the game design. " Prof. Haung
 
-<div style="page-break-after: always;"></div>
+</div>
+
+----
 
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
 *by Rui Li* 
@@ -31,11 +34,14 @@ These examples are selected as the best of the best projects. They serve to show
 [code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
 
+<div style="page-break-after: always;"> 
+ 
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 *by Tomas (Chengchun) Gao * [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 
-<img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="350" >
+<img img align="left" src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="150" >
 
+</div>
 
 - Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
 
