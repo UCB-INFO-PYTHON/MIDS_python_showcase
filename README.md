@@ -34,6 +34,12 @@ These examples are selected as the best of the best projects. They serve to show
 
 <img src="/https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png" alt="Game Board" width="350" >
 
+![testimage1] (game_board.png)
+
+<img src="/game_board.png" alt="Game Board" width="350" >
+
+
+
 [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 - Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
 
