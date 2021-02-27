@@ -27,10 +27,16 @@ These examples are selected as the best of the best projects. They serve to show
 [code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
 
-<img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="350" >
+
 
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 *by Tomas (Chengchun) Gao *
+
+<img src="https://github.com/UCB-INFO-PYTHON/Gomoku/blob/main/game_board.png?raw=true" alt="Game Board" width="350" >
+
+<img src="https://github.com/UCB-INFO-PYTHON/Project1_Jon_Miller_pymaze/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="350" >
+
+<img src="https://github.prod.oc.2u.com/UCB-INFO-PYTHON/Project1_Jon_Miller_pymaze/blob/master/pymaze_opening_screen.png?raw=true" alt="Game Board" width="350" >
 
 [code](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
 - Reason for selection: "Tomas wrote a very clean and robust codebase to implement GO. The inclusion of a pattern finding strategy module is cool and the modular structure of the code also makes it easy to update the strategy. This opens the door to increasingly interesting builds of artificial opponents." Prof. Kleemann
