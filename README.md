@@ -24,11 +24,18 @@ These examples are selected as the best of the best projects. They serve to show
 2. [Grocery Saver](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
 *by Rui Li* 
 [code](https://github.com/UCB-INFO-PYTHON/Grocery-saver)
+
+<img src="https://github.com/UCB-INFO-PYTHON/Grocery-saver/raw/master/PriceComparison.jpg" alt="Grocery list" width="200" >
+
 - Reason for selection: "Rui's grocery list program leverages many python functionalities including GUI generation, API calls, and the use of an SQL database." Prof. Kleemann
 
 3. [Dungeon's game](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 *by Razal Minhas*
 [code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
+
+<img src=https://github.com/UCB-INFO-PYTHON/dungeon/blob/main/Project%201%20UML.png" alt="Dungeon UML" width="200" >
+
+
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
  
 4. [Gomoku](https://github.com/UCB-INFO-PYTHON/Gomoku.git)
