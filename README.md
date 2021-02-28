@@ -74,6 +74,10 @@ These examples are selected as the best of the best projects. They serve to show
 4. [Trip planner](https://ucb-info-python.github.io/trip_planner)
 *by Ratan Singh*
 [code](https://github.com/UCB-INFO-PYTHON/trip_planner)
+
+<img src="https://github.com/UCB-INFO-PYTHON/trip_planner/blob/master/images/app_web.png?raw=true" alt="Trip info app" width="200" >
+
+
 - Reason for selection: "Ratan merges the results of three travel site APIs to develop a custom travel itineary on demand. Versions of his code inculde a local GUI built with tkinter and a cloud based web app." Prof. Kleemann
 
 ## Spring 2020
