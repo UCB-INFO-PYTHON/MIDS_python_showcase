@@ -33,7 +33,7 @@ These examples are selected as the best of the best projects. They serve to show
 *by Razal Minhas*
 [code](https://github.com/UCB-INFO-PYTHON/dungeon.git)
 
-<img src="https://github.com/UCB-INFO-PYTHON/dungeon/blob/main/Project%201%20UML.png" alt="Dungeon UML" width="200" >
+<img src="https://github.com/UCB-INFO-PYTHON/dungeon/blob/main/Project%201%20UML.png?raw=true" alt="Dungeon UML" width="200" >
 
 
 - Reason for selection: "Razal has devised a strategy to connect and combine different scenarios with a nice touch of visual representation." Prof. Huang
